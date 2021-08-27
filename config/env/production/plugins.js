@@ -4,9 +4,9 @@ module.exports = ({ env }) => ({
     providerOptions: {
       accessKeyId: env('AWS_ACCESS_KEY_ID'),
       secretAccessKey: env('AWS_ACCESS_SECRET'),
-      region: 'reactavancadocerto-api',
+      region: 'us-east-2',
       params: {
-        Bucket: 'us-east-2',
+        Bucket: 'reactavancadocerto-api',
       },
     },
   },
